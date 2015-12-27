@@ -1,6 +1,10 @@
 ## The following two functions are used to cache the inverse of a matrix, which can be a costly computation.
 
-## the makCacheMatrix function creates a special "matrix" object that can cache its inverse.
+## The makCacheMatrix function creates a special "matrix" object that can cache its inverse by using 4 of the following functions:
+## First, set matrix.
+## Second, get matrix.
+## Thrid, set value of inverse matrix.
+## Fourth, get value of inverse matrix.
 makeCacheMatrix <- function(x = matrix()) {
   ## assign m to be used as the special "matrix" variable
   m <- NULL
